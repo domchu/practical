@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "./Counter/Counter";
+import Props from "./Props/Props";
 import SampleOne from "./Toggle/SampleOne";
 import SampleThree from "./Toggle/SampleThree";
 import SampleTwo from "./Toggle/SampleTwo";
@@ -12,6 +13,7 @@ function App() {
       <SampleOne />
       <SampleTwo />
       <SampleThree />
+      <Props />
     </>
   );
 }
