@@ -8,22 +8,22 @@ const Counter = () => {
   };
   return (
     <>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center" }} className="card py-5">
         <h1>counter</h1>
         <div style={{ fontSize: "20px" }}>
-          <h2>{count}</h2>
-          <button className="inc" onClick={handleInc}>
+          <h2 className="my-3">{count}</h2>
+          <button className="btn btn-success mx-3" onClick={handleInc}>
             increment
           </button>
           <button
-            className="inc"
+            className="btn btn-danger mx-3"
             onClick={() => setCount(count - 1)}
             disabled={count === 0}
           >
             decrement
           </button>
           <button
-            className="inc"
+            className="btn btn-secondary"
             onClick={() => setCount(0)}
             disabled={count === 0}
           >
