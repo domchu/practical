@@ -1,26 +1,34 @@
-import { FaHome } from "react-icon/fa";
-import { BsBlockquoteLeft } from "react-icon/bsb";
-import { FcBusinessContact } from "react-icon/fcb";
-import { FcClock } from "react-icon/fc";
-const data = [
+import { FaHome } from "react-icons/fa";
+import { BsBlockquoteLeft } from "react-icons/bs";
+import { FcBusinessContact } from "react-icons/fc";
+import { FaBeer } from "react-icons/fa";
+
+const Data = [
   {
     title: "Home",
     path: "/",
     icons: <FaHome />,
   },
   {
-    title: "Home",
-    path: "/",
+    title: "Contact",
+    path: "/contact",
     icons: <FcBusinessContact />,
   },
   {
-    title: "Home",
-    path: "/",
+    title: "Blog",
+    path: "/blog",
     icons: <BsBlockquoteLeft />,
   },
   {
-    title: "Home",
-    path: "/",
-    icons: <FcClock />,
+    title: "Faq",
+    path: "/faq",
+    icons: <FaBeer />,
+  },
+  {
+    title: "About",
+    path: "/about",
+    icons: <FaBeer />,
   },
 ];
+
+export default Data;
