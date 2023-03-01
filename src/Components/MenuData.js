@@ -2,7 +2,7 @@ import { FaHome } from "react-icons/fa";
 import { BsBlockquoteLeft } from "react-icons/bs";
 import { FcBusinessContact } from "react-icons/fc";
 import { FaBeer } from "react-icons/fa";
-
+//adde all the json 
 const Data = [
   {
     title: "Home",
