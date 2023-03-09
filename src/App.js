@@ -14,16 +14,16 @@ import Props from "./Props/Props";
 import SampleOne from "./Toggle/SampleOne";
 import SampleThree from "./Toggle/SampleThree";
 import SampleTwo from "./Toggle/SampleTwo";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 function App() {
   return (
     <>
       <h2>navbar project setup</h2>
-      <Counter />
-      <SampleOne />
-      <SampleTwo />
-      <SampleThree />
-      <Props />
+      {/* <Counter /> */}
+      {/* <SampleOne /> */}
+      {/* <SampleTwo /> */}
+      {/* <SampleThree /> */}
+      {/* <Props /> */}
 
       <Menu />
       <Routes>

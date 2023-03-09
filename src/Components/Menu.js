@@ -7,12 +7,12 @@ const Menu = () => {
   return (
     <>
       <Flex
-        justifyContent="space-around"
-        m={5}
-        pt={56}
-        h={50}
-        flexDirection={{ base: "column", sm: "coulmn", md: "row", lg: "row" }}
-        fontSize={{ base: "23px" }}
+      // justifyContent="space-around"
+      // m={5}
+      // pt={56}
+      // h={50}
+      // flexDirection={{ base: "column", sm: "coulmn", md: "row", lg: "row" }}
+      // fontSize={{ base: "23px" }}
       >
         <Box>
           {Data.map((items, index) => {
