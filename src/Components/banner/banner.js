@@ -11,6 +11,10 @@ export default class SimpleSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
+      initialSlide: 0,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
     };
     return (
       <div>
