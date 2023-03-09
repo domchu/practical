@@ -3,8 +3,8 @@ import { Box } from "@chakra-ui/react";
 
 const Home = () => {
   return (
-    <Box>
-      <h2>Home</h2>
+    <Box style={{ fontSize: "3rem" }}>
+      <h2>Home page</h2>
     </Box>
   );
 };

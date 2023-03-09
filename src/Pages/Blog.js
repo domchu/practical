@@ -1,10 +1,11 @@
 import React from "react";
+import { Box } from "@chakra-ui/react";
 
 const Blog = () => {
   return (
-    <div>
-      <h2>Blog</h2>
-    </div>
+    <Box style={{ fontSize: "3rem" }}>
+      <h2>Blog page</h2>
+    </Box>
   );
 };
 
