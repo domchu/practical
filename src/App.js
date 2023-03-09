@@ -15,10 +15,11 @@ import SampleOne from "./Toggle/SampleOne";
 import SampleThree from "./Toggle/SampleThree";
 import SampleTwo from "./Toggle/SampleTwo";
 import Navbar from "./Navbar";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <h2>navbar project setup</h2>
+      {/* <h2>navbar project setup</h2> */}
       {/* <Counter /> */}
       {/* <SampleOne /> */}
       {/* <SampleTwo /> */}
@@ -35,6 +36,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
       </Routes>
       <Banner />
+      <Footer />
     </>
   );
 }
