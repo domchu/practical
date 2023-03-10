@@ -7,7 +7,6 @@ import SampleThree from "../Toggle/SampleThree";
 const Contact = () => {
   return (
     <Box style={{ fontSize: "3rem" }} className="page">
-      <h2>Contact Us page</h2>
       <SampleOne />
       <SampleTwo />
       <SampleThree />

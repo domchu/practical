@@ -5,7 +5,6 @@ import Counter from "../Counter/Counter";
 const Blog = () => {
   return (
     <Box style={{ fontSize: "3rem" }} className="page">
-      <h2>Blog page</h2>
       <Counter />
     </Box>
   );
