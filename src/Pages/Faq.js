@@ -1,0 +1,12 @@
+import React from "react";
+import { Box } from "@chakra-ui/react";
+
+const Faq = () => {
+  return (
+    <Box style={{ fontSize: "3rem" }} className="page">
+      <h2>FAQ page</h2>
+    </Box>
+  );
+};
+
+export default Faq;
