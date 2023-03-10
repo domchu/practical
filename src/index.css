@@ -74,4 +74,16 @@ footer {
 
 .page-header h2 {
   font-size: 3rem;
+}
+
+.about-btn a {
+  margin: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.about-btn {
+  margin-top: 3rem;
 }/*# sourceMappingURL=index.css.map */

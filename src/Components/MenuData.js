@@ -26,7 +26,7 @@ const Data = [
   },
   {
     title: "About",
-    path: "/about",
+    path: "/about/search",
     icons: <FaBeer />,
   },
 ];
