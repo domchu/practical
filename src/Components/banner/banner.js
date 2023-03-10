@@ -48,7 +48,7 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <Box>
             <Box
-              bgImage="url('./public/images/computer.jpg')"
+              bgImage="url('./images/computer.jpg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
@@ -59,7 +59,7 @@ export default class Responsive extends Component {
               overflow="hidden"
             />
             <Box className="banner-text">
-              <Link to="/">EXPLODE</Link>
+              <Link to="/about/About">EXPLODE</Link>
             </Box>
           </Box>
           <div>
