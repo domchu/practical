@@ -124,4 +124,10 @@ input {
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.banner-text {
+  position: absolute;
+  z-index: 20;
+  top: 20%;
 }/*# sourceMappingURL=index.css.map */
