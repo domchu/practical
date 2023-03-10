@@ -76,6 +76,10 @@ footer {
   font-size: 3rem;
 }
 
+.page h2 {
+  margin: 10rem 0px 10rem 0px;
+}
+
 .about-btn a {
   margin: 10px;
   background-color: #000;
@@ -86,4 +90,38 @@ footer {
 
 .about-btn {
   margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.route-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  height: 100px;
+  width: 100px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+input {
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 2rem;
+}
+
+[input=search] {
+  padding: 10px 15px;
+}
+
+.input-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }/*# sourceMappingURL=index.css.map */

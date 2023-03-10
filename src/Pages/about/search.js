@@ -1,15 +1,18 @@
 import React from "react";
+import { Box } from "@chakra-ui/react";
 
 const search = () => {
   return (
-    <div>
-      <input
-        type="search"
-        name=""
-        id=""
-        placeholder="what are you searching ..."
-      />
-    </div>
+    <>
+      <Box className="input-cont">
+        <input
+          type="search"
+          name=""
+          id=""
+          placeholder="what are you searching ..."
+        />
+      </Box>
+    </>
   );
 };
 

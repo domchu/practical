@@ -6,7 +6,7 @@ import About from "./Pages/about/About";
 import Faq from "./Pages/Faq";
 import Blog from "./Pages/Blog";
 import Error from "./Pages/Error";
-import Banner from "./Components/Banner/Banner";
+// import Banner from "./Components/Banner/Banner";
 import Search from "./Pages/about/search";
 import List from "./Pages/about/list";
 import Add from "./Pages/about/add";
@@ -42,7 +42,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="/" exact element={<Home />} />
       </Routes>
-      <Banner />
+      {/* <Banner /> */}
       <Footer />
     </>
   );
