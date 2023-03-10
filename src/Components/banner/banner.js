@@ -1,18 +1,19 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Link } from "@chakra-ui/react";
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+
 
 export default class Responsive extends Component {
   render() {
     var settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
       slidesToShow: 1,
       slidesToScroll: 1,
-      initialSlide: 0,
+      initialSlide: 1,
       responsive: [
         {
           breakpoint: 1024,
@@ -44,7 +45,22 @@ export default class Responsive extends Component {
       <>
         <h1>slider</h1>
         <Slider {...settings}>
-          <Box></Box>
+          <Box>
+            <Box
+              bgImage="url('./images/computer.jpg')"
+              bgPosition="center"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              objectFit="cover"
+              maxW="100%"
+              h={520}
+              pos="relative"
+              overflow="hidden"
+            />
+            <Box className="banner-text">
+              <Link to="/about/About">EXPLODE</Link>
+            </Box>
+          </Box>
           <div>
             <h3>2</h3>
           </div>
@@ -53,18 +69,6 @@ export default class Responsive extends Component {
           </div>
           <div>
             <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
           </div>
         </Slider>
       </>

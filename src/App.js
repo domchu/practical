@@ -6,29 +6,14 @@ import About from "./Pages/about/About";
 import Faq from "./Pages/Faq";
 import Blog from "./Pages/Blog";
 import Error from "./Pages/Error";
-// import Banner from "./Components/Banner/Banner";
 import Search from "./Pages/about/search";
 import List from "./Pages/about/list";
 import Add from "./Pages/about/add";
-
 import { Route, Routes } from "react-router-dom";
-import Counter from "./Counter/Counter";
-import Props from "./Props/Props";
-import SampleOne from "./Toggle/SampleOne";
-import SampleThree from "./Toggle/SampleThree";
-import SampleTwo from "./Toggle/SampleTwo";
-import Navbar from "./Navbar";
 import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      {/* <h2>navbar project setup</h2> */}
-      {/* <Counter /> */}
-      {/* <SampleOne /> */}
-      {/* <SampleTwo /> */}
-      {/* <SampleThree /> */}
-      {/* <Props /> */}
-
       <Menu />
       <Routes>
         <Route path="/contact" element={<Contact />} />
@@ -42,7 +27,7 @@ function App() {
         <Route path="*" element={<Error />} />
         <Route path="/" exact element={<Home />} />
       </Routes>
-      {/* <Banner /> */}
+
       <Footer />
     </>
   );
