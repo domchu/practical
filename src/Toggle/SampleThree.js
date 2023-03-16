@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const SampleThree = () => {
   //css style
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const handeToggle = () => {
     setToggle(!toggle);

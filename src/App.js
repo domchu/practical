@@ -18,10 +18,11 @@ function App() {
       <Routes>
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />}>
+
           <Route path="search" element={<Search />} />
           <Route path="list" element={<List />} />
           <Route path="add" element={<Add />} />
-        </Route>
+          </Route>
         <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="*" element={<Error />} />

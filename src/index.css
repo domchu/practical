@@ -51,6 +51,10 @@ Variables
   list-style-type: none;
 }
 
+a {
+  margin: 10px;
+}
+
 .menu-container {
   display: flex;
   justify-content: center;
@@ -131,4 +135,10 @@ input {
   z-index: 20;
   top: 20%;
   color: #fff;
+}
+
+.active {
+  color: red;
+  padding: 5px;
+  border-bottom: 1px solid #fff;
 }/*# sourceMappingURL=index.css.map */
