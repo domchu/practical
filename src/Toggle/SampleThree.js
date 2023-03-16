@@ -14,7 +14,7 @@ const SampleThree = () => {
       </button>
 
       <ul class="list-group" style={{ display: toggle ? "block" : "none" }}>
-        <li class="list-group-item " aria-current="">
+        <li class="list-group-item " >
           An active item
         </li>
         <li class="list-group-item">A second item</li>

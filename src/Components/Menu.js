@@ -34,17 +34,17 @@ const Menu = () => {
 
 export default Menu;
 
-{/* Get the current route */}
+// Get the current route 
 // const router = useRouter();
 // const currentRoute = router.pathname;
 
-{/* Render Link */}
-{/* <Link href="/some-path" 
-     className={currentRoute === "/some-path" 
-       ? "active-class-name" 
-       : "non-active-class-name"}>
-         Some Link
-</Link> */}
+// Render Link 
+ //<Link href="/some-path" 
+   //  className={currentRoute === "/some-path" 
+    //  gg? "active-class-name" 
+//       : "non-active-class-name"}>
+ //        Some Link
+//</Link> 
 
 // 2
 // import { useRouter } from 'next/router';
@@ -76,13 +76,13 @@ export default Menu;
 // }
 
 // 3)
-{/* <NavLink
-          key={tab.id}
-          className={(navData) =>
-            navData.isActive ? styles.activeTab : styles.inactiveTab
-          }
-          to={tab.path}
-        >
-          {tab.name}
+// <NavLink
+//          key={tab.id}
+//        className={(navData) =>
+ //           navData.isActive ? styles.activeTab : styles.inactiveTab
+ //         }
+ //         to={tab.path}
+ //       >
+ //         {tab.name}
         
-</NavLink> */}
+//</NavLink> 

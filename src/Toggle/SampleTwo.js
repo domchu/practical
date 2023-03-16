@@ -13,7 +13,7 @@ const SampleTwo = () => {
       </button>
       {toggle ? (
         <ul class="list-group">
-          <li class="list-group-item " aria-current="">
+          <li class="list-group-item ">
             An active item
           </li>
           <li class="list-group-item">A second item</li>
