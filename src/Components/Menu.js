@@ -47,6 +47,7 @@ export default Menu;
 </Link> */}
 
 // 2
+// import { useRouter } from 'next/router';
 // const NavBar = () => {
 //   const router = useRouter();
 //   const currentRoute = router.pathname;
