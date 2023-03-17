@@ -84,19 +84,6 @@ footer {
   margin: 10rem 0px 10rem 0px;
 }
 
-.about-btn a {
-  margin: 10px;
-  background-color: #000;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.about-btn {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .route-items {
   display: flex;
   justify-content: center;

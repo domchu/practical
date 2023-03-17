@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import CalendarHeader from "../CalendarHeader";
-import CalendarTable from "../CalendarTable";
-import "./style.css";
+import CalendarHeader from "../Calender/CalenderHeader";
+import CalendarTable from "../Calender/CalenderTable";
+// import "./style.css";
 
 function Calendar() {
   const [date, setDate] = useState(new Date());

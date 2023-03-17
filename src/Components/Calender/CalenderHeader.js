@@ -1,6 +1,6 @@
 import React from "react";
 import { format } from "date-fns";
-import "./style.css";
+// import "./style.css";
 
 function CalendarHeader({ date, onPrevMonth, onNextMonth }) {
   return (
