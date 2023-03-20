@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import SampleOne from "../Toggle/SampleOne";
 import SampleTwo from "./../Toggle/SampleTwo";
 import SampleThree from "../Toggle/SampleThree";
+import Table from "../Components/Table/Table";
 
 const Contact = () => {
   return (
@@ -10,6 +11,7 @@ const Contact = () => {
       <SampleOne />
       <SampleTwo />
       <SampleThree />
+      <Table />
     </Box>
   );
 };
