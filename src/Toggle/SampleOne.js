@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const SampleOne = () => {
   //using inline function and logical (!) operator
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <div style={{ textAlign: "center", marginTop: "3rem" }}>

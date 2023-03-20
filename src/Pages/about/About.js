@@ -11,14 +11,14 @@ const About = () => {
         </Link>
         <NavLink
           to="/about/list"
-          activeClassName="active"
+          ClassName="active"
           className="btn btn-secondary my-5"
         >
           List
         </NavLink>
         <NavLink
           to="/about/add"
-          activeClassName="active"
+          ClassName="active"
           className="btn btn-success my-5"
         >
           Add
