@@ -1,0 +1,27 @@
+const Data = [
+  {
+    name: "dominic",
+    email: "dominic@gmail.com",
+    phone: "1234567890",
+    address: "uk",
+    id: 1,
+    status: "active",
+  },
+  {
+    name: "ochu",
+    email: "ochu@gmail.com",
+    phone: "12345012890",
+    address: "usa",
+    id: 2,
+    status: "inactive",
+  },
+  {
+    name: "bush",
+    email: "bush12@gmail.com",
+    phone: "123456007890",
+    address: "london",
+    id: 3,
+    status: "active",
+  },
+];
+export default Data;

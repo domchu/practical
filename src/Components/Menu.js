@@ -10,22 +10,32 @@ const Menu = () => {
     <>
       <Box className="menu-container">
         {/* {Data.map((items, index) => { */}
-          {/* // const { title, icons, path } = items; */}
-          {/* return ( */}
-            <ul>
-              <li >
-                {/* <Link to={path}> */}
-                  {/* {icons} */}
-                  {/* <span style={{ flexDirection: "column" }}>{title}</span> */}
-                {/* </Link> */}
-                <NavLink to="/" exact activeClassName="active" >Home</NavLink>
-                <NavLink to="/contact" activeClassName="active">Contact</NavLink>
-                <NavLink to="/blog" activeClassName="active">Blog</NavLink>
-                <NavLink to="/Faq" activeClassName="active">Faq</NavLink>
-                <NavLink to="/about/search" activeClassName="active">About</NavLink>
-              </li>
-            </ul>
-          );
+        {/* // const { title, icons, path } = items; */}
+        {/* return ( */}
+        <ul>
+          <li>
+            {/* <Link to={path}> */}
+            {/* {icons} */}
+            {/* <span style={{ flexDirection: "column" }}>{title}</span> */}
+            {/* </Link> */}
+            <NavLink to="/" exact="true" ClassName="active">
+              Home
+            </NavLink>
+            <NavLink to="/contact" ClassName="active">
+              Contact
+            </NavLink>
+            <NavLink to="/blog" ClassName="active">
+              Blog
+            </NavLink>
+            <NavLink to="/Faq" ClassName="active">
+              Faq
+            </NavLink>
+            <NavLink to="/about/search" activeClassName="active">
+              About
+            </NavLink>
+          </li>
+        </ul>
+        );
         {/* })} */}
       </Box>
     </>
